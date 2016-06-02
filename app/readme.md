@@ -15,6 +15,6 @@
 - "$scope" : Allows you to set values as properties on our $scope object.
 
 #### Link
-- "Link" a great place to do DOM manipulation needed for elements attached to your controller.
-- It's a bad practice to put DOM manipulative expressions inside a controller due to the fact that those processes typically require an entire search of the DOM. This can be shortened easily by isolating the search the by placing this functionality inside a directive. Step in "Link"!. Link can take the parameters "element, scope, attrs".  "Element" refers to the outtermost element defined in the directive template. "Attrs" refers to the attributes within that outtermost element, and can be references as "attrs.header" for example. 
+- "Link" is a function that runs after the directive has been compiled by Angular and synched up with the module.  It's a great place to do DOM manipulation needed for elements attached to your controller.
+- It's a bad practice to put DOM manipulative expressions inside a controller due to the fact that those processes typically require an entire search of the DOM. This can be shortened easily by isolating the search the by placing this functionality inside a directive. Step in "Link"!. Link can take the parameters "element, scope, attrs".  "Element" refers to the outtermost element defined in the directive template. "Attrs" refers to the attributes within that outtermost element, and can be references as "attrs.header" for example.
 - "Strict Contextual Escaping" Service ~
